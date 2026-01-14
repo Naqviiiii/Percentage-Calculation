@@ -10,5 +10,7 @@ public class circle {
         Circ=2*3.14159*Radi;
         System.out.println("The Area of this cricle is " + Area);
         System.out.println("The Circumference of this circle is " + Circ);
+        input.close();
     }
+
 }

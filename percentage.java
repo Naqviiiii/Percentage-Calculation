@@ -11,8 +11,10 @@ public class percentage {
         TM = input.nextInt();
         P = GM*100/TM;    
         System.out.print(P+"%");
+        input.close();
     }
 }    
     
+
 
 

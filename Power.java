@@ -8,5 +8,7 @@ public class Power {
         double Ampere=input.nextDouble();
         double Watt=Volts*Ampere;
         System.out.print("Your total power calculated is :" + Watt);
+        input.close();
     }
 }
+
